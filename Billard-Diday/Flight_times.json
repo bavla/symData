@@ -3,7 +3,7 @@
     "source": "Lynne Billard, Edwin Diday: Clustering Methodology for Symbolic Data, Wiley 2020, page 14, Table 2.4",
     "title": "Flight times / Histogram data"
   },
-  "vars": [ ["id", "Airline], ["Y","Flight time"]],
+  "vars": [ ["id", "Airline"], ["Y","Flight time"]],
   "units": [  
     [ 1, [[[40, 100], 0.082], [[100, 180], 0.530],[[180, 240], 0.172], [[240, 320], 0.118], [[320, 380], 0.098]],
     [ 2, [[[40, 90], 0.171], [[90, 140], 0.285], [[140, 190], 0.351], [[190, 240], 0.022], [[240, 290], 0.171]],
