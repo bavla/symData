@@ -3,7 +3,7 @@
     "source": "Lynne Billard, Edwin Diday: Clustering Methodology for Symbolic Data, Wiley 2020, page 10, Table 2.1",
     "title": "Regional utilities / List or multi-valued data"
   },
-  "vars": [ ("id", "Region"), ("Y1","Major utility"), ("Y2","Cost")],
+  "vars": [ ["id", "Region"], ["Y1","Major utility"], ["Y2","Cost"]],
   "units": [   
     [ 1, [ "electricity", "coal", "wood", "gas" ], [190, 230] ],
     [ 2, [ "electricity", "oil", "coal" ], [21.5, 25.5] ],

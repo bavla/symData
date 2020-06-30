@@ -1,9 +1,9 @@
 ﻿{ "SDA": "manual",
   "info": {
     "source": "Lynne Billard, Edwin Diday: Clustering Methodology for Symbolic Data, Wiley 2020, page 65, Table 3.8",
-    "title": "Relative abundances / Blaisdell et al. (1996)"
+    "title": "Relative abundances / Blaisdell et al. [1996]"
   },
-  "vars": [ "id", ("lab","Genome name"), ("Y1","CG"), ("Y2","GC"), ("Y3","TA"), ("Y4","AT"), ("Y5","nu")],
+  "vars": [ "id", ["lab","Genome name"], ["Y1","CG"], ["Y2","GC"], ["Y3","TA"], ["Y4","AT"], ["Y5","nu"]],
   "units": [  
     [ 1, "tmp enteric dsDNA", [98, 108], [120, 126], [69, 76], [100, 109], 5 ],
     [ 2, "tmp nonenteric dsDNA", [59, 108], [91, 107], [51, 92], [ 96, 99], 2 ],

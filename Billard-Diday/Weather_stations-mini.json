@@ -3,7 +3,7 @@
     "source": "Lynne Billard, Edwin Diday: Clustering Methodology for Symbolic Data, Wiley 2020, page 12, Table 2.3",
     "title": "Weather stations - mini / Interval data"
   },
-  "vars": [ ("id", "Station"), ("Y1","January"), ("Y2","July"), ("Y3","Elevation")],
+  "vars": [ ["id", "Station"], ["Y1","January"], ["Y2","July"], ["Y3","Elevation"]],
   "units": [  
     [ 1, [−18.4, −7.5], [17.0, 26.5], 4.82 ],
     [ 2, [−23.4, −15.5], [12.9, 23.0], 14.78 ],

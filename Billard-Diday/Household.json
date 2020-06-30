@@ -3,7 +3,7 @@
     "source": "Lynne Billard, Edwin Diday: Clustering Methodology for Symbolic Data, Wiley 2020, page 19, Table 2.7",
     "title": "Household information"
   },
-  "vars": [ ("cl", "County"), ("Y1","Income"), ("Y2","Age"), ("Y3","Child"), ("Y4","Tenure"), ("Y5","Energy"), ("Y6","Distance")],
+  "vars": [ ["cl", "County"], ["Y1","Income"], ["Y2","Age"], ["Y3","Child"], ["Y4","Tenure"], ["Y5","Energy"], ["Y6","Distance"]],
   "units": [  
     [ 1, 801, 44, "Yes", "Owner", "Gas", 10 ],
     [ 2, 752, 20, "No", "Owner", "Gas", 6 ], 
