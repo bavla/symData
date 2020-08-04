@@ -50,6 +50,7 @@ units = [
 >>> cities = {"format": "SDJSON", "info": info, "vars": vars, "units": units }
 >>> js = open("cities.json",'w'); json.dump(cities,js,indent=1); js.close()
 
+-------------------------------------------------------------------------------
 
 info = { "ref": "D.S. Guru, Bapu B. Kiranagi, P. Nagabhushan: Multivalued type proximity measure and concept of mutual similarity value useful for clustering symbolic patterns. Pattern Recognition Letters 25 (2004) 1203–1213.",
    "spec": "page 1209, Table 5",
@@ -76,6 +77,7 @@ units = [
 >>> micros = {"format": "SDJSON", "info": info, "vars": vars, "units": units }
 >>> js = open("micros.json",'w'); json.dump(micros,js,indent=1); js.close()
 
+-------------------------------------------------------------------------------
 
 info = { "ref": "D.S. Guru, Bapu B. Kiranagi, P. Nagabhushan: Multivalued type proximity measure and concept of mutual similarity value useful for clustering symbolic patterns. Pattern Recognition Letters 25 (2004) 1203–1213.",
    "spec": "page 1208, Table 2",
@@ -96,6 +98,6 @@ units = [
 ]
 
 >>> oils = {"format": "SDJSON", "info": info, "vars": vars, "units": units }
->>> js = open("Oils.json",'w'); json.dump(oils,js,indent=1); js.close()
+>>> js = open("oils.json",'w'); json.dump(oils,js,indent=1); js.close()
 
 
