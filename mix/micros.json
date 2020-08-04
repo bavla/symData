@@ -1,0 +1,237 @@
+{
+ "format": "SDJSON",
+ "info": {
+  "ref": "D.S. Guru, Bapu B. Kiranagi, P. Nagabhushan: Multivalued type proximity measure and concept of mutual similarity value useful for clustering symbolic patterns. Pattern Recognition Letters 25 (2004) 1203\u20131213.",
+  "spec": "page 1209, Table 5",
+  "title": "Microcomputer data",
+  "by": "Vladimir Batagelj, August 3, 2020"
+ },
+ "vars": [
+  [
+   "Display",
+   "cat"
+  ],
+  [
+   "RAM",
+   "num"
+  ],
+  [
+   "ROM",
+   "int"
+  ],
+  [
+   "Microprocessor",
+   "cat"
+  ],
+  [
+   "Keys",
+   "int"
+  ]
+ ],
+ "units": [
+  {
+   "id": 1,
+   "lab": "Apple II",
+   "X": [
+    "Color",
+    48,
+    [
+     10,
+     10
+    ],
+    "6502",
+    [
+     52,
+     52
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "lab": "Atari 800",
+   "X": [
+    "Color",
+    48,
+    [
+     10,
+     10
+    ],
+    "6502",
+    [
+     57,
+     63
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "lab": "Vic 20",
+   "X": [
+    "Color",
+    32,
+    [
+     11,
+     16
+    ],
+    "6502A",
+    [
+     64,
+     73
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "lab": "Sorcerer",
+   "X": [
+    "B/W",
+    48,
+    [
+     4,
+     4
+    ],
+    "Z80",
+    [
+     57,
+     63
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "lab": "Zenith H 8",
+   "X": [
+    "Built in",
+    64,
+    [
+     1,
+     1
+    ],
+    "8080A",
+    [
+     64,
+     73
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "lab": "Zenith H 89",
+   "X": [
+    "Built in",
+    64,
+    [
+     8,
+     8
+    ],
+    "Z80",
+    [
+     64,
+     73
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "lab": "HP 85",
+   "X": [
+    "Built in",
+    32,
+    [
+     80,
+     80
+    ],
+    "HP",
+    [
+     92,
+     92
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "lab": "Horizon",
+   "X": [
+    "Terminal",
+    64,
+    [
+     8,
+     8
+    ],
+    "Z80",
+    [
+     57,
+     63
+    ]
+   ]
+  },
+  {
+   "id": 9,
+   "lab": "Challenger",
+   "X": [
+    "B/W",
+    32,
+    [
+     10,
+     10
+    ],
+    "6502",
+    [
+     53,
+     56
+    ]
+   ]
+  },
+  {
+   "id": 10,
+   "lab": "OhioSci.11",
+   "X": [
+    "B/W",
+    48,
+    [
+     10,
+     10
+    ],
+    "6502C",
+    [
+     53,
+     56
+    ]
+   ]
+  },
+  {
+   "id": 11,
+   "lab": "TRS-80 I",
+   "X": [
+    "B/W",
+    48,
+    [
+     12,
+     12
+    ],
+    "Z80",
+    [
+     53,
+     56
+    ]
+   ]
+  },
+  {
+   "id": 12,
+   "lab": "TRS-80 III",
+   "X": [
+    "Built in",
+    48,
+    [
+     14,
+     14
+    ],
+    "Z80",
+    [
+     64,
+     73
+    ]
+   ]
+  }
+ ]
+}

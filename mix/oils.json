@@ -1,0 +1,262 @@
+{
+ "format": "SDJSON",
+ "info": {
+  "ref": "D.S. Guru, Bapu B. Kiranagi, P. Nagabhushan: Multivalued type proximity measure and concept of mutual similarity value useful for clustering symbolic patterns. Pattern Recognition Letters 25 (2004) 1203\u20131213.",
+  "spec": "page 1208, Table 2",
+  "title": "Fats and oils data",
+  "by": "Vladimir Batagelj, August 3, 2020"
+ },
+ "vars": [
+  [
+   "Specific gravity",
+   "int"
+  ],
+  [
+   "Freezing point",
+   "int"
+  ],
+  [
+   "Iodine value",
+   "int"
+  ],
+  [
+   "Saponification value",
+   "int"
+  ],
+  [
+   "Major fatty acids",
+   "set"
+  ]
+ ],
+ "units": [
+  {
+   "id": 1,
+   "lab": "Linseed oil",
+   "X": [
+    [
+     0.93,
+     0.935
+    ],
+    [
+     -27.0,
+     -18.0
+    ],
+    [
+     170.0,
+     204.0
+    ],
+    [
+     118.0,
+     196.0
+    ],
+    [
+     "L",
+     "Ln",
+     "O",
+     "P",
+     "M"
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "lab": "Perilla oil",
+   "X": [
+    [
+     0.93,
+     0.937
+    ],
+    [
+     -5.0,
+     -4.0
+    ],
+    [
+     192.0,
+     208.0
+    ],
+    [
+     188.0,
+     197.0
+    ],
+    [
+     "L",
+     "Ln",
+     "O",
+     "P",
+     "S"
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "lab": "Cottonseed oil",
+   "X": [
+    [
+     0.916,
+     0.918
+    ],
+    [
+     -6.0,
+     -1.0
+    ],
+    [
+     99.0,
+     113.0
+    ],
+    [
+     189.0,
+     198.0
+    ],
+    [
+     "L",
+     "O",
+     "P",
+     "M",
+     "S"
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "lab": "Sesame oil",
+   "X": [
+    [
+     0.92,
+     0.926
+    ],
+    [
+     -6.0,
+     -4.0
+    ],
+    [
+     104.0,
+     116.0
+    ],
+    [
+     187.0,
+     193.0
+    ],
+    [
+     "L",
+     "O",
+     "P",
+     "S",
+     "A"
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "lab": "Camellia oil",
+   "X": [
+    [
+     0.916,
+     0.917
+    ],
+    [
+     -21.0,
+     -15.0
+    ],
+    [
+     80.0,
+     82.0
+    ],
+    [
+     189.0,
+     193.0
+    ],
+    [
+     "L",
+     "O"
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "lab": "Olive oil",
+   "X": [
+    [
+     0.914,
+     0.919
+    ],
+    [
+     0.0,
+     6.0
+    ],
+    [
+     79.0,
+     90.0
+    ],
+    [
+     187.0,
+     196.0
+    ],
+    [
+     "L",
+     "O",
+     "P",
+     "S"
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "lab": "Beef tallow",
+   "X": [
+    [
+     0.86,
+     0.87
+    ],
+    [
+     30.0,
+     38.0
+    ],
+    [
+     40.0,
+     48.0
+    ],
+    [
+     190.0,
+     199.0
+    ],
+    [
+     "O",
+     "P",
+     "M",
+     "S",
+     "C"
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "lab": "Hog fat",
+   "X": [
+    [
+     0.858,
+     0.864
+    ],
+    [
+     22.0,
+     32.0
+    ],
+    [
+     53.0,
+     77.0
+    ],
+    [
+     190.0,
+     202.0
+    ],
+    [
+     "L",
+     "O",
+     "P",
+     "M",
+     "S",
+     "LU"
+    ]
+   ]
+  }
+ ]
+}
