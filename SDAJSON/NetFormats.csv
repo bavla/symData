@@ -1,0 +1,11 @@
+EasyGraph: Patterns 4, 100839, October 13, 2023
+Comparison of network analysis tools in terms of supporting different network I/O types
+name; EasyGraph; NetworkX; igraph; SNAP; graph-tool; Gephi; Cytoscape
+Edge List; 1; 1; 1; 1; 0; 1; 0 
+GraphML  ; 1; 1; 1; 0; 1; 1; 1 
+GML      ; 1; 1; 1; 0; 1; 1; 1 
+Pickle   ; 1; 1; 1; 0; 1; 0; 0 
+Pajek    ; 1; 1; 1; 0; 0; 1; 0 
+GraphViz ; 1; 0; 1; 1; 1; 1; 0 
+UCINET DL; 1; 0; 0; 0; 0; 1; 0 
+GEXF     ; 1; 0; 0; 0; 0; 1; 0 
