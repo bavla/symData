@@ -1,10 +1,10 @@
 # Infinity, Undefined, NaN
 
-The basic idea of the [JSON](https://ecma-international.org/publications-and-standards/standards/ecma-404/) format is that in Javascript a JSON data description is evaluated into a Javascript data value (object).    
+The basic idea of the JSON format ( [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259) and [ECMA-404](https://ecma-international.org/publications-and-standards/standards/ecma-404/) )is that in Javascript a JSON data description is evaluated into a Javascript data value (object).    
 
 
 There are two problems related to numerical values
-  * most programming languages support the [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259) and IEE standards for numerical values that includes also special values +Infinity, -Infinity, and Not_a_Number (`+Inf`, `-Inf`, `NaN`). Javascript allows numbers of unlimited precision, but doesn't support the special values.
+  * most programming languages support the IEE standards for numerical values that includes also special values +Infinity, -Infinity, and Not_a_Number (`+Inf`, `-Inf`, `NaN`). Javascript allows numbers of unlimited precision, but doesn't support the special values.
   * in data analysis the value Not_Available ( `NA` ) is used to indicate a missing value
 
 See also: [Infinity and JSON](https://medium.com/the-magic-pantry/infinity-and-json-cde6df62c17c);
