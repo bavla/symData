@@ -66,8 +66,4 @@
   arable crops pasture forest other
 3     24   8.1    11.9   32.7  23.3
 > 
-
-> M <- matrix(c(1:4, NaN, NA, Inf, +Inf, -Inf), ncol=3, byrow=TRUE); M
-> (m <- toJSON(M)) 
-> fromJSON(m)
 ```
