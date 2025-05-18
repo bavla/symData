@@ -1,7 +1,7 @@
 # JSON
 
-  * [Data frame](df.dm)
-  * [Infinity, Undefined, Not a number](spec.dm)
+  * [Data frame](df.md)
+  * [Infinity, Undefined, Not a number](spec.md)
 
 
 
