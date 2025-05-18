@@ -55,6 +55,60 @@
 > library(jsonlite)
 > D <- fromJSON("SDA.json")
 > str(D)
+List of 3
+ $ SDA : chr "basic"
+ $ info:List of 3
+  ..$ author: chr "Vladimir Batagelj"
+  ..$ date  : chr "May 17, 2025"
+  ..$ source:List of 2
+  .. ..$ title: chr "The World Factbook"
+  .. ..$ URL  : chr "https://www.cia.gov/the-world-factbook/"
+ $ data:'data.frame':   5 obs. of  6 variables:
+  ..$ id  : int [1:5] 1 2 3 4 5
+  ..$ lab : chr [1:5] "Slovenia" "Croatia" "Italy" "Austria" ...
+  ..$ ISO : chr [1:5] "SI" "HR" "IT" "AT" ...
+  ..$ pop : int [1:5] 2097893 4150116 60964931 8967982 469730
+  ..$ land:'data.frame':        5 obs. of  5 variables:
+  .. ..$ arable : num [1:5] 8.9 15.2 24 16 24.4
+  .. ..$ crops  : num [1:5] 2.7 1.4 8.1 0.8 3
+  .. ..$ pasture: num [1:5] 18.8 9.2 11.9 14.7 0
+  .. ..$ forest : num [1:5] 61.3 34.7 32.7 47.2 1.4
+  .. ..$ other  : num [1:5] 8.4 39.4 23.3 21.3 71.2
+  ..$ age :List of 5
+  .. ..$ :'data.frame': 3 obs. of  5 variables:
+  .. .. ..$ lb: int [1:3] 0 15 65
+  .. .. ..$ rb: num [1:3] 14 64 Inf
+  .. .. ..$ pc: num [1:3] 14.3 62.5 23.2
+  .. .. ..$ m : int [1:3] 153852 683573 213619
+  .. .. ..$ f : int [1:3] 146628 627788 272433
+  .. ..$ :'data.frame': 3 obs. of  5 variables:
+  .. .. ..$ lb: int [1:3] 0 15 65
+  .. .. ..$ rb: num [1:3] 14 64 Inf
+  .. .. ..$ pc: num [1:3] 13.8 63.1 23.1
+  .. .. ..$ m : int [1:3] 296527 1307814 399090
+  .. .. ..$ f : int [1:3] 278236 1309394 559055
+  .. ..$ :'data.frame': 3 obs. of  5 variables:
+  .. .. ..$ lb: int [1:3] 0 15 65
+  .. .. ..$ rb: num [1:3] 14 64 Inf
+  .. .. ..$ pc: num [1:3] 11.9 64.5 23.6
+  .. .. ..$ m : int [1:3] 3699167 19378160 6336738
+  .. .. ..$ f : int [1:3] 3531734 19958137 8060995
+  .. ..$ :'data.frame': 3 obs. of  5 variables:
+  .. .. ..$ lb: int [1:3] 0 15 65
+  .. .. ..$ rb: num [1:3] 14 64 Inf
+  .. .. ..$ pc: num [1:3] 14.1 64.7 21.2
+  .. .. ..$ m : int [1:3] 648639 2904587 839672
+  .. .. ..$ f : int [1:3] 616334 2898339 1060411
+  .. ..$ :'data.frame': 3 obs. of  5 variables:
+  .. .. ..$ lb: int [1:3] 0 15 65
+  .. .. ..$ rb: num [1:3] 14 64 Inf
+  .. .. ..$ pc: num [1:3] 14.5 62.4 23.1
+  .. .. ..$ m : int [1:3] 35034 151836 50153
+  .. .. ..$ f : int [1:3] 33181 141248 58278
+```
+
+
+```
 > D$data$lab
 [1] "Slovenia" "Croatia"  "Italy"    "Austria"  "Malta"   
 > D$data$land$arable
