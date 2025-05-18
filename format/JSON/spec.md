@@ -1,6 +1,12 @@
 # Infinity, Undefined, NaN
 
 The basic idea of the JSON format is that a JSON data description is in Javascript evaluated into a Javascript data value.    
+
+There are two problems related to numerical values
+  * most programming languages support the IEE standard for numerical values that includes also special values +Infinity, -Infinity, and Not_a_Number (`+Inf`, `-Inf`, `NaN`). Javascript allows numbers of unlimited precision, but doesn't support the special values.
+  * in data analysis the value Not_Available (`NA') is used to indicate a missing value
+
+
 ```
 > M <- matrix(c(1:4, NaN, NA, Inf, +Inf, -Inf), ncol=3, byrow=TRUE); M
      [,1] [,2] [,3]
