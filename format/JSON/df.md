@@ -122,5 +122,5 @@ List of 3
 > 
 ```
 
-<br>
-[JSON](JSON.md)
+<hr>
+[JSON](README.md)
