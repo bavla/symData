@@ -79,6 +79,13 @@ D["data"][0]["age"][1]
 ```
 
 ```
+import math
+t = json.dumps([math.inf, -math.inf, math.nan])
+t
+'[Infinity, -Infinity, NaN]'
+json.loads(t)
+[inf, -inf, nan]
+
 ```
 
 
