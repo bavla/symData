@@ -1,6 +1,6 @@
 # Infinity, Undefined, NaN
 
-The basic idea of the JSON (JavaScript Object Notation) format ( [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259) and [ECMA-404](https://ecma-international.org/publications-and-standards/standards/ecma-404/) )is that in Javascript a JSON data description is evaluated into a Javascript data value (object).    
+The basic idea of the JSON (JavaScript Object Notation) format ( [RFC 8259](https://datatracker.ietf.org/doc/html/rfc8259) and [ECMA-404](https://ecma-international.org/publications-and-standards/standards/ecma-404/) ) is that in Javascript a JSON data description is evaluated into a Javascript data value (object).    
 
 
 There are two problems related to numerical values
