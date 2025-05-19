@@ -4,7 +4,7 @@ The basic idea of the JSON format ( [RFC 8259](https://datatracker.ietf.org/doc/
 
 
 There are two problems related to numerical values
-  * most programming languages support the [IEE 754](https://ieeexplore.ieee.org/document/8766229) standard for numerical values that includes (section 6) also special values +Infinity, -Infinity, and Not_a_Number (`+Inf`, `-Inf`, `NaN`). Javascript allows numbers of unlimited precision, but doesn't support these special values.
+  * most programming languages support the [IEEE 754](https://ieeexplore.ieee.org/document/8766229) IEEE Standard for Floating-Point Arithmetic that includes (section 6) also special values +Infinity, -Infinity, and Not_a_Number (`+Inf`, `-Inf`, `NaN`). Javascript allows numbers of unlimited precision, but doesn't support these special values.
   * in data analysis the value Not_Available ( `NA` ) is used to indicate a missing value
 
 See also: [Infinity and JSON](https://medium.com/the-magic-pantry/infinity-and-json-cde6df62c17c);
