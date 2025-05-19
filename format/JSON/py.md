@@ -78,6 +78,12 @@ D["data"][0]["age"][1]
 {'lb': 15, 'rb': 64, 'pc': 62.5, 'm': 683573, 'f': 627788}
 ```
 
+## Infinity and NaN
+
+https://medium.com/@tihomir.manushev/json-vs-infinity-and-nan-values-ec817d523516
+https://bugs.python.org/issue40633
+https://evanhahn.com/pythons-nonstandard-json-encoding/
+
 ```
 import math
 t = json.dumps([math.inf, -math.inf, math.nan])
