@@ -72,6 +72,10 @@ print(json.dumps(D["data"], indent=2))
     ]
   }
 ]
+D["data"][0]["lab"]
+'Slovenia'
+D["data"][0]["age"][1]
+{'lb': 15, 'rb': 64, 'pc': 62.5, 'm': 683573, 'f': 627788}
 ```
 
 ```
