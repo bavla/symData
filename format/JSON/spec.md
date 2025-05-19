@@ -12,7 +12,7 @@ See also: [Infinity and JSON](https://medium.com/the-magic-pantry/infinity-and-j
 [JSON in Python 3](https://docs.python.org/3/library/json.html);
 [Issue 98](https://github.com/popsim-consortium/demes-spec/pull/98#issuecomment-872430331).
 
-The new Javascript standard [ecma262](https://tc39.es/ecma262/) finally introduced values Infinity, Undefined, and .
+The new Javascript standard [ecma262](https://tc39.es/ecma262/) finally introduced values **+Infinity**, **-Infinity**, **NaN**, and **Undefined**.
 
 In R the library `jsonlite` already supports `+Inf`, `-Inf`, `NaN`, and `NA`.
 ```
