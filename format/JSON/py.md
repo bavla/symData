@@ -1,5 +1,8 @@
 # Python
 
+
+https://realpython.com/python-json/
+
 ```
 import sys, os, json
 wdir = "C:/Users/vlado/docs/papers/2025/SDA/test"
