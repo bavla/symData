@@ -18,3 +18,7 @@ The World Factbook [WWW](https://www.cia.gov/the-world-factbook/), [GitHub](http
 ```
 
 ```
+
+<hr>
+
+[JSON](./README.md)
