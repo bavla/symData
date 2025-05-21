@@ -117,7 +117,29 @@ $females
 [1] 14.84  9.01 40.73 14.19 21.23
 > sp[3,]
          percent  males females
-25_to_54   40.73 449930  406395 
+25_to_54   40.73 449930  406395
+
+> write(toJSON(C,auto_unbox=TRUE),file="popAge.JSON")
+
+> Q <- fromJSON("popAge.json")
+> names(Q)
+[1] "name" "year" "pop" 
+> dim(Q)
+[1] 259   3
+> (p1 <- as.data.frame(Q$pop[1]))
+            percent      males    females
+0_to_14       25.33 1005229963  941107507
+15_to_24      15.42  612094887  572892123
+25_to_54      40.67 1582759769 1542167537
+55_to_64       9.09  341634893  357176983
+65_and_over    9.49  326234036  402994685
+> (ps <- as.data.frame(Q$pop[which(Q$name=="slovenia")]))
+            percent  males females
+0_to_14       14.84 160134  151960
+15_to_24       9.01  98205   91318
+25_to_54      40.73 449930  406395
+55_to_64      14.19 148785  149635
+65_and_over   21.23 192420  253896
 ```
     
 ```
