@@ -6,4 +6,5 @@
   * Program: [week-overview](https://www.isi-next.org/conferences/isi-rsc-malta-2026/week-overview/), [full programme](https://www.isi-next.org/conferences/52/programme/#0)
   * The [Valletta Campus](https://www.um.edu.mt/campuses/valletta/), [map](https://www.google.com/maps/place/University+of+Malta+(Valletta+Campus)/@35.8983765,14.5129052,17z/data=!3m1!4b1!4m6!3m5!1s0x130e45295e73d6e3:0xb68783fc37800203!8m2!3d35.8983722!4d14.5154801!16s%2Fg%2F1tfv7jqs?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D)
   * Tritoni Borgo Suites: [149, Triq San Pawl - Valletta](https://www.google.com/maps/place/35%C2%B053'56.7%22N+14%C2%B031'01.0%22E/@35.8984759,14.513539,17z/data=!4m4!3m3!8m2!3d35.899093!4d14.51694?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D)
+  * [Malta Public Transport](https://www.publictransport.com.mt/journey-planner/)
 
